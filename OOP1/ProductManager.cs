@@ -12,6 +12,10 @@ namespace OOP1
             Console.WriteLine("Ürün Eklendi : "+product.ProductName);
         }
 
+        public void Update(Product product)
+        {
+            Console.WriteLine("Ürün Güncellendi : "+product.ProductName);
+        }
         public void Delete(Product product)
         {
             Console.WriteLine("Ürün Silindi : "+product.ProductName);
